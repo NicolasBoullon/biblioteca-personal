@@ -1,0 +1,32 @@
+# Dependencies and build output (any subproject)
+node_modules/
+dist/
+coverage/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# SQLite databases
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Logs
+*.log
+logs/
+
+# IDEs and editors
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
